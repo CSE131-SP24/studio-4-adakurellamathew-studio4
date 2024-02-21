@@ -7,9 +7,10 @@ import edu.princeton.cs.introcs.StdDraw;
 public class Flag {
 	public static void main(String[] args) {
 		
-		 StdDraw.setPenRadius(0.02);
+			StdDraw.setPenRadius(0.02);
 	        StdDraw.setPenColor(StdDraw.BLACK);
 	        StdDraw.rectangle(0.5, 0.5, 0.4, 0.3);
+	        
 	        StdDraw.setPenColor(StdDraw.GREEN);
 	        StdDraw.filledRectangle(0.5, 0.5, 0.4, 0.3);
 	        
